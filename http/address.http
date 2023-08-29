@@ -1,0 +1,12 @@
+POST http://localhost:8080/api/address
+content-Type:application/json
+
+{
+  "street": "Zielona",
+  "city": "Łódź",
+  "voivodeship": "Łódzkie",
+  "zipCode": "99-100",
+  "houseNumber": "4",
+  "buildingNumber": "310"
+}
+###

@@ -1,0 +1,7 @@
+POST http://localhost:8080/api/department
+content-Type:application/json
+
+{
+  "department": "UR PASKI"
+}
+###

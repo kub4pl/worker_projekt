@@ -1,0 +1,28 @@
+POST http://localhost:8080/api/worker
+content-Type:application/json
+
+{
+  "name": "Mirosław",
+  "surname": "Kurasik",
+  "pesel": "98080765283",
+  "accountNumber": "49 1020 2892 2276 3005 0000 2220",
+  "workerType": "UoP",
+  "nip": "5260215091"
+}
+###
+PUT http://localhost:8080/api/worker/3
+content-Type:application/json
+
+{
+  "name": "Mirosław",
+  "surname": "Kurasik",
+  "pesel": "98080765283",
+  "accountNumber": "49 1020 2892 2276 3005 0000 2220",
+  "workerType": "UoP",
+  "nip": "5260215091"
+}
+###
+GET http://localhost:8080/api/worker/page
+###
+GET http://localhost:8080/api/worker/pesel/98080765240
+###
